@@ -1,0 +1,13 @@
+.main {
+  padding: 0 $space;
+
+  &__profile {
+    font-size: 30px;
+    color: $secondary-color;
+    margin: 20px 0;
+  }
+
+  &__description {
+    color: #999;
+  }
+}

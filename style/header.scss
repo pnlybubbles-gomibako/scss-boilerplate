@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px $space;
+
+  &__logo {
+    font-size: 40px;
+    color: $primary-color;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &__menu-item {
+    display: block;
+    color: $primary-color;
+    font-weight: bold;
+
+    & + & {
+      margin-left: 20px;
+    }
+  }
+}
