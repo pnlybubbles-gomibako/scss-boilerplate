@@ -10,7 +10,7 @@
   },
   "scripts": {
     "pomupomu": "banner -w 80 pomu",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url .",
     "clean": "rm -rf dist",
     "upload": "gh-pages -d dist",
     "deploy": "yarn clean && yarn build && yarn upload"
