@@ -12,6 +12,7 @@
     "pomupomu": "banner -w 80 pomu",
     "build": "parcel build index.html",
     "clean": "rm -rf dist",
-    "deploy": "yarn clean && yarn build && gh-pages -d dist"
+    "upload": "gh-pages -d dist",
+    "deploy": "yarn clean && yarn build && yarn upload"
   }
 }
