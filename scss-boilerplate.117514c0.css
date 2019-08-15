@@ -1,0 +1,2 @@
+body{font:100% Helvetica,sans-serif}.header{display:flex;justify-content:space-between;padding:20px 40px}.header__logo{font-size:40px;color:#333}.header__menu{display:flex;align-items:center}.header__menu-item{display:block;color:#333;font-weight:700}.header__menu-item+.header__menu-item{margin-left:20px}.main{padding:0 40px}.main__profile{font-size:30px;color:#966;margin:20px 0}.main__description{color:#999}
+/*# sourceMappingURL=/scss-boilerplate.117514c0.css.map */
