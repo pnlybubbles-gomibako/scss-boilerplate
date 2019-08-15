@@ -4,7 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "parcel-bundler": "^1.12.3",
     "sass": "^1.22.9"
+  },
+  "scripts": {
+    "pomupomu": "banner -w 80 pomu",
+    "build": "parcel build index.html",
+    "clean": "rm -rf dist",
+    "deploy": "yarn clean && yarn build && gh-pages -d dist"
   }
 }
